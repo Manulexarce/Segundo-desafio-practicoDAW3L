@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Prueba de almacenamiento local</title>
+  <meta charset="utf-8" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+    integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+    integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/little.css">
+  <script src="formstorage.js"></script>
+</head>
+
+<body class="container">
+  <section>
+    <article>
+      <form name="regestryform" style="margin: 25; padding: 5%; background-color: gainsboro;">
+        <fieldset id="myform">
+          <div id="h11" class="p-3 mb-2 bg-gradient-primary text-black">
+          <h1 class="display-1">Orden de pollo</h1>
+          </div>
+          <div id="cajita">
+            <p id="primero">Combos y productos</p>
+            <div id="combos">
+            <p>Combos:</p>
+            <form>
+            <input type="radio" name="combo-1" value="7.25"> super combo </input>
+            <input type="radio" name="combo-2" value="5.75"> Combo Personal </input>
+            <input type="radio" name="combo-3" value="3.50"> Combo infantil</input>
+            </div>
+            <hr>
+            <div id="productos-añadir">
+            <p>Productos:</p>
+            <input type="checkbox" name="producto1" value="1.50"> Ensalada</input>
+            <input type="checkbox" name="producto2" value="1.25"> Papas Fritas</input>
+            <input type="checkbox" name="producto3" value="1.75"> Pieza de pollo grande</input>
+            <input type="checkbox" name="producto4" value="1.50"> Piezza de pollo mediana</input>
+            <input type="checkbox" name="producto5" value="1.25"> Pieza de pollo pequeña</input>
+            <input type="checkbox" name="producto6" value="1.50">Bebida grande</input>
+            <input type="checkbox" name="producto7" value="1.25">Bebida mediana</input>
+            <input type="checkbox" name="producto8" value="1.00">Bebida pequeña</input>
+            <input type="checkbox" name="producto9" value="0.50"> Café</input>
+            <input type="checkbox" name="producto10" value="1.25">Postre</input>
+            </div>
+            <br>
+            <div id="sugerencias">
+                <p>sugerencias</p>
+                <input class="sugerencias" type="text" name="sugerencias">
+                <p>Total a pagar: <div id="result"></div></p>
+      <button>Obtener TOTAL</button>
+    </form>
+    <script src="js/json.js"></script>
+    <footer class="bg-light text-center text-lg-start">
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © Derechos reservados 2021 DAW
+        <br />
+        Manuel Alexander Arce Ramos.
+      </div>
+    </footer>
+    </body>
+    </html>

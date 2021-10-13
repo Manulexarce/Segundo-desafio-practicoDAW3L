@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+
+
+    background: linear-gradient(to right, rgba(255,255,255,0), rgb(255,255,255,0)), url(../img/cine3.jpg);
+	background-size: 100%;
+	background-color: gray;
+
+}
+
+#wrapper {
+    margin: 0 auto;
+    max-width: 1120px;
+    width: 88%;
+}
+/*Personalizacioón del título de la página*/
+header h1 {
+    text-align: center;
+    margin: 10px auto;
+    font-family: "BroadWay",Helvetica,"Impact";
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #5a0980;
+    -webkit-text-stroke: 1px white;
+    -o-text-stroke: 1px white;
+    -ms-text-stroke: 1px white;
+    -moz-text-stroke: 1px white;
+
+}
+/*PAra poner todo en línea*/
+ul.grid li {
+    display: flexbox;
+    width: 700px;
+    height: 300px;
+    *display: inline;
+    *zoom: 1;
+}
+/*Borde de imagen de películas*/
+ul.grid li h4 {
+	color: Brown;
+	font: Bold 20px "Bahnschrift",Helvetica,"Liberation Sans";
+	text-align: center;
+    padding-bottom: 10px;
+    display: inline-block;
+    
+}
+img{
+    width: 140px;
+    height: 160px;
+}
+
+ul.grid li h3  {
+	color: #000000;
+	font: Normal 0.8em "Bahnschrift",Helvetica,"Liberation Sans";
+    margin: 0 9px;
+	text-align: center;
+    border: 3px solid black;
+    padding: 1%;
+    padding-bottom: 5%;
+    padding-right: 100px;
+    margin-left: 220px;
+    display: inline;
+    
+    
+}
+ul.grid li h2  {
+	color: #000000;
+	font: Normal 0.8em "Bahnschrift",Helvetica,"Liberation Sans";
+    margin: 0 9px;
+	text-align: center;
+    margin-left: 220px;
+    display: inline;
+    
+    
+}
+
+
+ul.grid li img.imagen {
+	background: #fc3434af;
+	border: dashed 2px #0c0c0c;
+	margin: 40px 10px 10px 40px;
+	padding: 1px 10px 1px 10px ;
+    
+    
+}
+
+ul.grid li img.imagen:hover {
+	border: solid 5px rgb(183, 0, 255);
+	-moz-box-shadow: 1px 1px 5px #999;
+	-webkit-box-shadow: 1px 1px 5px #999;
+    box-shadow: 1px 1px 5px #999;
+    
+}
+
+.box {
+	position:relative;
+	width: 168px;
+	height:300px;
+	margin: 16px auto;
+    border: 2px solid #5a0980;
+}
+
+.box-gradient {
+    background: rgb(203, 177, 231);
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
